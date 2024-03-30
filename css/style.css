@@ -1,7 +1,7 @@
 /*! Variables start */
 :root {
     /* Font Styles */
-    --mainfont: "Lexend", sans-serif;
+    --mainfont: "Lexend";
   
     /* Color Variables */
     --colorGreenMain: #076C54;
@@ -134,9 +134,6 @@
   .D-Button-Primary:hover {
     background-color: var(--colorLightyellow) !important;
     color: var(--colorGreenMain);
-    
-
-
   }
   
   .navbar-nav {
@@ -175,3 +172,51 @@
   .sampleText{
     color: red !important;
   }
+
+  /* Nav bar End */
+
+
+
+
+
+
+  /*===================================
+            Title Section
+    ===================================*/
+
+
+    .center-text{
+      text-align: center;
+    }
+
+    .A-title-head-section{
+      margin-top: 200px;
+    }
+
+    .A-SubTitle-text{
+      font-size: 20px;
+    }
+
+    .A-Title-text{
+      color: #464646;
+      text-align: center;
+      font-family: var(--mainfont);
+      font-size: 45.397px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.908px;
+      text-transform: capitalize;
+    }
+
+    .A-Title-Para{
+      color: #464646;
+      text-align: center;
+      font-family: var(--mainfont);
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 1.17px;
+      text-transform: capitalize;
+    }
