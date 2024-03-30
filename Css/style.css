@@ -1,0 +1,168 @@
+/*! Variables start */
+:root {
+    /* Font Styles */
+    --mainfont: "Lexend", sans-serif;
+  
+    /* Color Variables */
+    --colorGreenMain: #076C54;
+    --colorBlack: #1D1D1D;
+    --colorLightGreen: #D7E5BE;
+    --colorMainGray: #969696;
+    --colorLightGray: #606566;
+    --colorbackground: #FDFDFD;
+  }
+
+  body {
+    font-family: var(--mainfont) !important;
+    cursor: default;
+    height: 100vh;
+    background-color: var(--colorbackground);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+/* Reset Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Text Selection Styles */
+  ::-moz-selection {
+    color: var(--colorBlack);
+    background: var(--colorLightGreen);
+  }
+  
+  /* Page selection colos  */
+  ::selection {
+    color: var(--colorbackground);
+    background: var(--colorLightGreen);
+  }
+  
+  .D-Active {
+    color: var(--colorLightGreen) !important;
+  }
+  
+  /*! Variables End */
+
+
+  /* Back To Top Button start */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 10;
+  }
+  
+  .D-BackToTop {
+    height: 50px;
+    width: 50px;
+    background-color: var(--colorLightGreen);
+    border-radius: 50%;
+    transition: .2s linear;
+  }
+  
+  .D-BackToTop:hover {
+    background-color: var(--colorLightGreen);
+  }
+  
+  .ri-arrow-up-fill {
+    color: var(--colorbackground);
+    font-size: 18px;
+  }
+  
+  /* Back To Top Button end */
+  
+
+
+
+
+
+
+
+
+
+  /* styles start here */
+
+/* 
+========================================================
+                  Nav Bar
+========================================================
+*/
+
+.main-logo {
+    width: 110px;
+    flex-shrink: 0;
+  }
+  
+  .nav-link {
+    color: var(--colorBlueMain) !important;
+    font-family: var(--mainfont);
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+  }
+  
+  .nav-link:hover {
+    color: var(--colorLightGreen) !important;
+  }
+  
+  .D-Button-Primary {
+    width: 136px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px 0px rgba(34, 87, 122, 0.25);
+    background: var(--colorGreenMain);
+    color: var(--colorbackground);
+    border-color: transparent;
+    transition: 10ms;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .D-Button-Primary:hover {
+    background-color: var(--colorLightGreen) !important;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 5px;
+  }
+  
+  .navbar {
+    background-color: var(--colorbackground) !important;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0px 3.22353px 14.50588px 0px rgba(34, 87, 122, 0.15);
+  }
+  
+  .d-NavContainerFluid {
+    background-color: var(--colorbackground) !important;
+    width: 100%;
+  }
+  
+  .D-MainAccountPFP{
+    border-radius: 100px;
+    border: 3px solid var(--colorGreenMain);
+    height: 45px;
+    width: 45px;
+  }
+  
