@@ -10,6 +10,7 @@
     --colorMainGray: #969696;
     --colorLightGray: #606566;
     --colorbackground: #FDFDFD;
+    --colorLightyellow: #D7E5BE;
   }
 
   body {
@@ -113,7 +114,7 @@
   }
   
   .nav-link:hover {
-    color: var(--colorLightGreen) !important;
+    color: var(--colorLightyellow) !important;
   }
   
   .D-Button-Primary {
@@ -126,12 +127,16 @@
     color: var(--colorbackground);
     border-color: transparent;
     transition: 10ms;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
   }
   
   .D-Button-Primary:hover {
-    background-color: var(--colorLightGreen) !important;
+    background-color: var(--colorLightyellow) !important;
+    color: var(--colorGreenMain);
+    
+
+
   }
   
   .navbar-nav {
