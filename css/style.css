@@ -344,3 +344,30 @@
       letter-spacing: 0.37px;
       text-transform: capitalize;
     }
+
+
+
+
+
+       /*===================================
+            Home Video Section
+    ===================================*/
+
+      .A-title-video-section {
+        margin-top: 7%;
+      }
+
+      .A-span {
+        width: 155px;
+        height: 45px;
+      }
+
+      .A-home-video {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .A-home-video-frame {
+        border-radius: 28px;
+      }
+        
