@@ -252,6 +252,7 @@
 
     .A-top-head {
       margin-top: 50px;
+      align-items: center;
     }
 
     .A-head-img-sub-2 {
@@ -283,14 +284,15 @@
 
     .A-Package-product-section {
       margin-top: 60px;
-      height: 500px;
-      width: 100%;
+      height: auto;
+      width: auto;
       background-color: var(--colorultralightGreen);
+      padding: 20px 20px 20px 20px;
     }
 
     .A-image-align-right {
       text-align: right;
-      margin-right: 15%;
+      margin-right: 25%;
     }
 
     .A-product-img {
@@ -298,10 +300,12 @@
       height: 409px;
       flex-shrink: 0;
       margin-top: 46px;
+      margin-bottom: 46px;
     }
 
     .A-product-home-title {
       margin-top: 51px;
+      margin-bottom: 46px;
     }
 
     .A-product-home-Title {
@@ -317,8 +321,6 @@
     }
 
     .A-product-home-para {
-      width: 597.165px;
-      height: 133.321px;
       flex-shrink: 0;
       color: #1E1E1E;
       margin-top: 6%;
@@ -334,7 +336,7 @@
 
     .A-btn-exploreMore {
       width: 200px;
-
+      margin-top: 30px;
       font-size: 18.517px;
       font-style: normal;
       font-weight: 600;
